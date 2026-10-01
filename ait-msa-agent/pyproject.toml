@@ -1,0 +1,15 @@
+[project]
+name = "ait-msa-agent"
+version = "1.0.0"
+description = "Agente de análisis financiero con control FinOps (LangGraph + LangChain + Groq)"
+requires-python = ">=3.13"
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

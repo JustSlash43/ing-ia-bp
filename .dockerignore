@@ -1,0 +1,10 @@
+**/.venv/
+**/.env
+**/data/*.db*
+**/__pycache__/
+**/.pytest_cache/
+**/.langgraph_api/
+**/*.egg-info/
+**/build/
+ait-msa-agent/tests/
+*.drawio

@@ -1,0 +1,12 @@
+# Lo que NO se sube a Cloud Build (nunca subir .env ni el venv)
+.gcloudignore
+.git/
+**/.venv/
+**/.env
+**/data/*.db*
+**/__pycache__/
+**/.pytest_cache/
+**/.langgraph_api/
+**/*.egg-info/
+**/build/
+*.drawio

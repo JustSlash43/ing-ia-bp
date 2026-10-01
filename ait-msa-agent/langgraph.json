@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "financial_analysis": "./src/financial_agent/infrastructure/studio.py:graph"
+  },
+  "env": ".env",
+  "python_version": "3.13"
+}
